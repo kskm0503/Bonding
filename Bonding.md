@@ -57,54 +57,47 @@
 
 7-1. 본딩 구성 확인
 
-Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011)
-
-Bonding Mode: fault-tolerance (active-backup)
-Primary Slave: None
-Currently Active Slave: ens33
-MII Status: up
-MII Polling Interval (ms): 100
-Up Delay (ms): 0
-Down Delay (ms): 0
-Peer Notification Delay (ms): 0
-
-Slave Interface: ens33
-MII Status: up
-Speed: 1000 Mbps
-Duplex: full
-Link Failure Count: 0
-Permanent HW addr: 00:0c:29:fb:9f:74
-Slave queue ID: 0
-
-Slave Interface: ens36
-MII Status: up
-Speed: 1000 Mbps
-Duplex: full
-Link Failure Count: 0
-Permanent HW addr: 00:0c:29:fb:9f:7e
-Slave queue ID: 0
+<br>Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011)<br>
+<br>Bonding Mode: fault-tolerance (active-backup)
+<br>Primary Slave: None
+<br>urrently Active Slave: ens33
+<br>MII Status: up
+<br>MII Polling Interval (ms): 100
+<br>Up Delay (ms): 0
+<br>Down Delay (ms): 0
+<br>Peer Notification Delay (ms): 0<br>
+<br>Slave Interface: ens33
+<br>MII Status: up
+<br>Speed: 1000 Mbps 
+<br>Duplex: full
+<br>Link Failure Count: 0
+<br>Permanent HW addr: 00:0c:29:fb:9f:74
+<br>Slave queue ID: 0<br>
+<br>Slave Interface: ens36
+<br>MII Status: up
+<br>Speed: 1000 Mbps
+<br>Duplex: full
+<br>Link Failure Count: 0
+<br>Permanent HW addr: 00:0c:29:fb:9f:7e
+<br>Slave queue ID: 0 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------  
 
-7-2. 장애상황 발생 / 네트워크 카드 하나 삭제
-         
-         
-Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011)
-
-Bonding Mode: fault-tolerance (active-backup)
-Primary Slave: None
-Currently Active Slave: ens36
-MII Status: up
-MII Polling Interval (ms): 100
-Up Delay (ms): 0
-Down Delay (ms): 0
-Peer Notification Delay (ms): 0
-
-Slave Interface: ens36
-MII Status: up
-Speed: 1000 Mbps
-Duplex: full
-Link Failure Count: 0
-Permanent HW addr: 00:0c:29:fb:9f:7e
-Slave queue ID: 0
-         
+7-2. 장애상황 발생 / 네트워크 카드 하나 삭제 -> ens36이 올라온 것 확인가능
+                 
+<br>thernet Channel Bonding Driver: v3.7.1 (April 27, 2011)<br>
+<br>Bonding Mode: fault-tolerance (active-backup)
+<br>Primary Slave: None
+<br>Currently Active Slave: ens36**
+<br>MII Status: up
+<br>MII Polling Interval (ms): 100
+<br>Up Delay (ms): 0
+<br>Down Delay (ms): 0
+<br>Peer Notification Delay (ms): 0<br>
+<br>Slave Interface: ens36
+<br>MII Status: up
+<br>Speed: 1000 Mbps
+<br>Duplex: full
+<br>Link Failure Count: 0
+<br>Permanent HW addr: 00:0c:29:fb:9f:7e
+<br>Slave queue ID: 0<br>
